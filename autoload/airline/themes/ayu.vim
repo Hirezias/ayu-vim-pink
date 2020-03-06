@@ -24,6 +24,27 @@ if ayucolor == 'light'
   let s:c.cyan    = { 'gui': '#95E6CB', 'cterm': 6  }
   let s:c.green   = { 'gui': '#B8CC52', 'cterm': 2  }
 
+elseif ayucolor == 'pink'
+  " Base colors.
+  let s:c.base0 = { 'gui': '#401540', 'cterm': 0 }
+  let s:c.base1 = { 'gui': '#401540', 'cterm': 8 }
+  let s:c.base2 = { 'gui': '#602060', 'cterm': 10 }
+  let s:c.base3 = { 'gui': '#401540', 'cterm': 12 }
+  let s:c.base4 = { 'gui': '#401540', 'cterm': 11 }
+  let s:c.base5 = { 'gui': '#FFAAFF', 'cterm': 14 }
+  let s:c.base6 = { 'gui': '#F6D9DF', 'cterm': 7 }
+  let s:c.base7 = { 'gui': '#401540', 'cterm': 15 }
+
+  " Other colors.
+  let s:c.red     = { 'gui': '#0000FF', 'cterm': 1  }
+  let s:c.orange  = { 'gui': '#FF99CC', 'cterm': 9  } "Replace
+  let s:c.yellow  = { 'gui': '#C090C0', 'cterm': 3  } "INSERT
+  let s:c.magenta = { 'gui': '#FFAAFF', 'cterm': 13 } "Visual
+  let s:c.violet  = { 'gui': '#FFFF00', 'cterm': 5  }
+  let s:c.blue    = { 'gui': '#401540', 'cterm': 4  } "Normal
+  let s:c.cyan    = { 'gui': '#00FF00', 'cterm': 6  }
+  let s:c.green   = { 'gui': '#FF00FF', 'cterm': 2  }
+
 else
   " Base colors.
   let s:c.base0 = { 'gui': '#151a1e', 'cterm': 0 }
